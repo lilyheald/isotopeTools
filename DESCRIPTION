@@ -1,0 +1,25 @@
+Package: isotopeTools
+Type: Package
+Title: Tools for Isotope Data Cleaning and Analysis
+Version: 0.1.0
+Author: Lily Heald
+Maintainer: Lily Heald <your_email@example.com>
+Description: Provides functions for cleaning, analyzing, and visualizing isotopic data 
+    from archaeological samples, including dual-axis plots, carbon plots, and 
+    summary statistics tables.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.0.0)
+Imports:
+    dplyr,
+    ggplot2,
+    readr,
+    kableExtra,
+    webshot2,
+    patchwork,
+    wesanderson,
+    stats,
+    stringr,
+    utils
+RoxygenNote: 7.3.2
